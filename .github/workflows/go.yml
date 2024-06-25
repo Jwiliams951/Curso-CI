@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: go mod tidy
 
-      - name: Test
+      - name: Test2
         run: go test -v main_test.go
 
       - name: Build
